@@ -1,8 +1,9 @@
 ## Example
 
 	import numpy as np
+	import quaternion
 	
-	q = Quaternion(hi=np.pi/2, vector=[1., 0., 0.])
+	q = quaternion.Quaternion(hi=np.pi/2, vector=[1., 0., 0.])
 	v = np.array([0., 1., 1.])
 	
 	# Rotate vector
